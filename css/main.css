@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+}
+
+#container {
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#container img {
+    object-fit: cover;
+}
+
+#info{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info .imgBox {
+    margin-right: 10px;
+}
+
+#info .imgBox img {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#info .text h5 {
+    color: rgba(0,0,0,0.6);
+    font-size: .9em;
+    cursor: pointer;
+}
+
+#info .text h6 {
+    color: rgba(0,0,0,0.6);
+    font-size: 0.7em;
+    cursor: pointer;
+}
+
+#info .settings {
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+#snap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+#icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icons .left-icons {
+    margin: 0 10px;
+}
+
+#icons .left-icons img {
+    margin: 0 0 0 10px;
+    cursor: pointer;
+}
+
+#icons .save {
+    margin: 10px;
+}
+
+#icons .save img {
+    margin: 10px;
+    cursor: pointer;
+}
+
+#likes {
+    width: 100%;
+    margin-left: 10px;
+}
+
+#likes h5 {
+    margin: 0 10px;
+    color: rgba(0,0,0,0.7);
+    cursor: pointer;
+}
+
+#caption h5 {
+    margin: 5px 0 0 20px;
+    cursor: pointer;
+    color: rgba(0,0,0,0.9);
+}
+
+#caption span {
+    color: rgba(0,0,0,0.6);
+}
+
+#comments {
+    width: 100%;
+    margin-left: 20px;
+}
+
+#comments h5 {
+    margin: 10px 0;
+    color: rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+#newcomments{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 20px;
+} 
+
+#newcomments .imgBox {
+    margin-right: 10px;
+}
+
+#newcomments .imgBox img {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#newcomments .text h5 {
+    color: rgba(0,0,0,0.8);
+    font-size: .9em;
+    cursor: pointer;
+}
+
+#time {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 20px;
+} 
+
+#time h5 {
+    color: rgba(0,0,0,0.6);
+    font-size: .8em;
+}
